@@ -16,8 +16,15 @@ function createBoard(request){
       categories: request.categories,
       posts: []
     }
+  }).promise()
+  .then((res) => {
+    console.log('[create-board.js] board is created!', res)
+    return res
   })
-
+  .catch((createError) => {
+    console.log('[create-board.js] board is not created :(', createError)
+    throw createError
+  })
 }
 
 module.exports = createBoard

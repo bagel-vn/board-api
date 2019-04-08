@@ -17,7 +17,7 @@ AttributeName=id,AttributeType=S \
 AttributeName=id,KeyType=HASH --provisioned-throughput \
 ReadCapacityUnits=1,WriteCapacityUnits=1 \
 --region ap-southeast-1 > \
-table.board.json
+table-boards.json
 ```
 board의 id는 곧 url로 쓰인다.
 ```
