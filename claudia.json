@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "board-api-executor",
+    "name": "board-api",
+    "region": "ap-southeast-1"
+  },
+  "api": {
+    "id": "1n8ogjpon4",
+    "module": "api"
+  }
+}

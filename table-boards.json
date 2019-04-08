@@ -1,0 +1,28 @@
+{
+    "TableDescription": {
+        "TableArn": "arn:aws:dynamodb:ap-southeast-1:887638839405:table/boards", 
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "id", 
+                "AttributeType": "S"
+            }
+        ], 
+        "ProvisionedThroughput": {
+            "NumberOfDecreasesToday": 0, 
+            "WriteCapacityUnits": 1, 
+            "ReadCapacityUnits": 1
+        }, 
+        "TableSizeBytes": 0, 
+        "TableName": "boards", 
+        "TableStatus": "CREATING", 
+        "TableId": "f208bcdd-7c4c-43c1-8dc7-6bddc716fc3b", 
+        "KeySchema": [
+            {
+                "KeyType": "HASH", 
+                "AttributeName": "id"
+            }
+        ], 
+        "ItemCount": 0, 
+        "CreationDateTime": 1554724477.62
+    }
+}
